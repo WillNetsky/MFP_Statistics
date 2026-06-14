@@ -1,0 +1,65 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- JetBrains IDE (keep shared config, ignore per-user state) ---
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+
+# --- Credentials / secrets (do NOT commit) ---
+*.pickle
+ftp-creds.pickle
+mfp-ftp-credentials.ipynb
+
+# --- Generated data: per-league / per-arena exports ---
+arena_time_df_*.csv
+mfp_league_*_full.csv
+mfp_league_*_standings.csv
+mfp_league_*_standings.html
+mfp_league_web_*.csv
+mfp_season_*_by_week.csv
+
+# --- Generated reports / pipeline output ---
+output/
+papermill_output.ipynb
+*-output.ipynb
+*_output.ipynb
+
+# --- Scratch / temp pipeline dirs ---
+MFPipeline/tmp*/
+
+# --- Spreadsheets / bulky data artifacts ---
+*.xlsx
+
+# --- Generated output directories ---
+Retired/
+Stats/
+ifpa/
+seasidechamp2/
+MFPipeline/.idea/
+
+# --- Standalone generated exports (data dumps, not source) ---
+full_match_df
+full_match_df.csv
+pre_compute_df.csv
+pre_compute_df-test.csv
+mfp_all_seasons.csv
+mfp_all_seasons_full.csv
+mfp_league_standings.csv
+mfp_season_by_week.csv
+mfp_season_df_ifpa.csv
+bayburgh_signups.csv
+city_champ_ifpa.csv
+MFPipeline/test.csv
+index.html
+seasons.html
+perfect_nights.html
+season_scores_less_than_8.html
+ipdb-alpha-game-list.html
+biggest_week_to_week_drop.html.html
+
+# NOTE: This intentionally does NOT blanket-ignore *.csv / *.html / *.ipynb,
+# since some are real source. If a generated file slips through, add it here.

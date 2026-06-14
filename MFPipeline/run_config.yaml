@@ -1,0 +1,7 @@
+ops:
+  scrape_matchplay:
+    config:
+      series_id: "1875"
+  export_to_csv:
+    config:
+      series_id: "1875"
