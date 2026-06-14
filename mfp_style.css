@@ -1,0 +1,28 @@
+/* includes alternating gray and white with on-hover color */
+
+.mfp_style {
+    font-size: 11pt;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border: 1px solid silver;
+
+}
+
+.mfp_style td, th {
+    padding: 5px;
+}
+
+.mfp_style tr:nth-child(even) {
+    background: #E0E0E0;
+}
+
+.mfp_style tr:hover {
+    background: silver;
+    cursor: pointer;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+    cursor: pointer;
+}

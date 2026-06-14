@@ -1,0 +1,15 @@
+MFP season id dictionary
+season_id_dict = {
+    '209' : 'Winter 17',
+    '285' : 'Spring 17',
+    '350' : 'Summer 17',
+    '409' : 'Fall 17',
+    '475' : 'Winter 18',
+    '582' : 'Spring 18',
+    '672' : 'Summer 18',
+    '748' : 'Fall 18',
+    '861' : 'Winter 19',
+    '987' : 'Spring 19',
+    '1080': 'Summer 19',
+    '1194': 'Fall 19'
+}
